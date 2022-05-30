@@ -1,0 +1,49 @@
+#resume{
+
+}
+.body{
+    font-family: "Open Sans", sans-serif;
+    color: #272829;
+}
+.resume-title{
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #45505b;
+    text-align: center;
+}
+.resume-description{
+    font-family: "Open Sans", sans-serif;
+    color: #272829;
+    text-align: center;
+}
+.resume-row{
+ display: flex;
+ flex-wrap: wrap;
+}
+.resume-col{
+        flex: 0 0 auto;
+        width: 50%;
+}
+.resume-col1{
+    flex-basis: 100%;
+}
+.section_title{
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #45505b;
+}
+h4{
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #0563bb;
+    margin-bottom: 10px;
+}

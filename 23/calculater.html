@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta http-equiv="refresh"content="5"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+</head>
+<body>
+    <div class="container">
+    <input type="text" id="text_input" placeholder="" name="" style="width:300px;"><br>
+    <!-- <button id="ac" class="button_ac">AC</button>
+    <button id="backspace" class="button_arrow"><-</button>
+    <button id="pulse_minus" class="button_pulse_minus">+/-</button>
+    <button id="divide" class="divide">/</button> -->
+    <div class="number_section"> 
+        <button id="one" onclick="ip_text(1)" class="button">1</button>
+        <button id="two" onclick="ip_text(2)" class="button">2</button>
+        <button id="three" onclick="ip_text(3)" class="button">3</button><br>
+        <button id="four" onclick="ip_text(4)" class="button">4</button>
+        <button id="five" onclick="ip_text(5)" class="button">5</button>
+        <button id="six" onclick="ip_text(6)" class="button" >6</button><br>
+        <button id="seven" onclick="ip_text(7)" class="button">7</button>
+        <button id="eight" onclick="ip_text(8)" class="button">8</button>
+        <button id="nine" onclick="ip_text(9)" class="button">9</button>
+    </div>
+   
+    <!-- <button id="multiply" onclick="multi()" class="button">x</button>
+    <button id="minus" onclick="minus()" class="button_minus">_</button>
+    <button id="add" onclick="add()" class="button">+</button>
+    <button id="point" onclick="dot()" class="button_dot">.</button>
+    <button id="zero" onclick="ip_text(0)" class="button">0</button>
+    <button id="reset" onclick="reset()" class="button_reset">R</button>
+    <button id="equal" onclick="equal()" class="button">=</button> -->
+    </div>
+    <script src="calculater.js"></script>
+    <style>
+        .button_pulse_minus{
+            border: .2px black;
+            padding: 15px 28px;
+            text-align: center;
+            margin-top: 5px;
+        }
+        .button_ac{
+            border: .2px black;
+            padding: 15px 26px;
+            text-align: center;
+            margin-top: 5px;
+        }
+        .button_arrow{
+            border: .2px black;
+            padding: 15px 30px;
+            text-align: center;
+            margin-top: 5px;
+        }
+        .button {
+            border: .2px black;
+            padding: 15px 32px;
+            text-align: center;
+            margin-top: 5px;
+        }
+        .button_dot{
+            border: .2px black;
+            padding: 15px 34px;
+            text-align: center;
+            margin-top: 5px;
+        }
+        .button_minus{
+            border: .2px black;
+            padding: 15px 32px;
+            text-align: center;
+            margin-top: 5px;
+        }
+        .button_reset{
+            border: .2px black;
+            padding: 15px 30px;
+            text-align: center;
+            margin-top: 5px;
+        }
+        .number_section{
+            
+        }
+    </style>
+</body>
+</html>

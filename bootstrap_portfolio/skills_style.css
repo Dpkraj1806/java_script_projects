@@ -1,0 +1,59 @@
+.skill{
+    height:auto;
+    width: 950px;
+    display: flex;
+}
+.skill-title{
+    text-align: center;
+   font-size: 32px;
+   font-weight: bold;
+   text-transform: uppercase;
+   margin-bottom: 20px;
+   padding-bottom: 20px;
+   position: relative;
+   color: #45505b;
+
+}
+.skill-description{
+ 
+}
+.progress{
+    display: flex;
+    height: auto;
+    width: 1400px;
+}
+.progress-left{
+    flex-basis: 40%;
+    margin-left: 50px;
+}
+.progress-right{
+  flex-basis: 40%;
+  margin-left: 100px;
+}
+.progress-container{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.progress-text{
+    margin-left: 0px;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 10px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #45505b;
+}
+.progress-text-percentage{
+    float: right;
+    margin-right: 0px;
+}
+.progress-bar{
+    background-color: blue;
+    height: 10px;
+    margin: 0px;
+    margin-left: 0px;
+    transition: 1s;
+    width: 97px;
+}
